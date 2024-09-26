@@ -6,7 +6,7 @@ import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
-import Notification from "./Notification";
+import Notification from "./Notification.jsx";
 import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
@@ -47,7 +47,7 @@ const Hero = () => {
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
-
+              {/* Este es el marco */}
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
                   src={robot}
